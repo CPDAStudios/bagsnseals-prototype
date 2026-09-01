@@ -2,6 +2,8 @@
 
 Premium responsive homepage prototype for Bags n’ Seals by Hermetic LLC.
 
+Visual direction: cinematic industrial photography with a navy, graphite and silver palette, high-contrast typography and glass/metal interface details.
+
 ## Structure
 
 - `index.html` — semantic homepage markup
