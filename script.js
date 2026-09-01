@@ -8,6 +8,7 @@ const productDisplay = document.querySelector('[data-product-display]');
 const productKicker = document.querySelector('[data-product-kicker]');
 const productTitle = document.querySelector('[data-product-title]');
 const productStage = document.querySelector('[data-product-stage]');
+const productLightbox = document.querySelector('[data-product-lightbox]');
 const lightboxTriggers = document.querySelectorAll('[data-lightbox-src]');
 
 if (year) year.textContent = new Date().getFullYear();
@@ -23,6 +24,10 @@ if (productChoices.length && productDisplay) {
         productDisplay.alt = choice.dataset.alt || '';
         if (productKicker) productKicker.textContent = choice.dataset.kicker || '';
         if (productTitle) productTitle.textContent = choice.dataset.title || '';
+        if (productLightbox) {
+          productLightbox.dataset.lightboxSrc = choice.dataset.image;
+          productLightbox.dataset.lightboxAlt = choice.dataset.alt || '';
+        }
         productStage?.classList.toggle('is-refill-view', choice.dataset.image.includes('bag-rolls'));
         productDisplay.classList.remove('is-switching');
       }, 160);
