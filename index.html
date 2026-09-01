@@ -9,164 +9,58 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260831b">
-  <script src="script.js?v=20260831b" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260901a">
+  <script src="script.js?v=20260901a" defer></script>
 </head>
-<body>
+<body class="home-page">
   <a class="skip-link" href="#main">Skip to content</a>
-
   <header class="site-header" data-header>
-    <a class="brand" href="#top" aria-label="Bags n’ Seals home">
-      <img src="assets/images/bagsnseals-logo-silver.png" alt="Bags n’ Seals">
-      <span>by Hermetic LLC</span>
+    <a class="brand" href="index.html" aria-label="Bags n’ Seals home" aria-current="page">
+      <img src="assets/images/bagsnseals-logo-silver.png" alt="Bags n’ Seals"><span>by Hermetic LLC</span>
     </a>
-
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
-      <span></span><span></span><span class="sr-only">Toggle navigation</span>
-    </button>
-
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
-      <a href="#system">The system</a>
-      <a href="#how-it-works">How it works</a>
-      <a href="#recognition">Recognition</a>
-      <a href="#configurations">Models</a>
+      <a href="product.html">Product</a><a href="how-it-works.html">How it works</a><a href="innovation.html">Innovation</a><a href="applications.html">Applications</a><a href="support.html">Support</a>
     </nav>
-
-    <a class="nav-cta" href="https://www.bagsnseals.com/product4">Shop the system <span aria-hidden="true">↗</span></a>
+    <a class="nav-cta" href="https://www.bagsnseals.com/product4">Shop <span aria-hidden="true">↗</span></a>
   </header>
 
   <main id="main">
     <section class="hero" id="top">
       <div class="hero__shade" aria-hidden="true"></div>
       <div class="hero__content reveal">
-        <div class="hero__credentials">
-          <span>U.S. patented</span><i aria-hidden="true"></i><span>2026 award winner</span>
-        </div>
+        <div class="hero__credentials"><span>U.S. patented</span><i aria-hidden="true"></i><span>2026 award winner</span></div>
         <h1>Waste handling.<br><strong>Re-engineered.</strong></h1>
         <p class="hero__lead">A continuous bag deployment and sealing system designed to make everyday disposal cleaner, faster and more controlled.</p>
         <div class="hero__actions">
-          <a class="button button--silver" href="#system">Discover the system</a>
-          <a class="button button--glass" href="https://www.bagsnseals.com/howto">See it in action <span aria-hidden="true">↗</span></a>
+          <a class="button button--silver" href="product.html">Discover the system</a>
+          <a class="button button--glass" href="how-it-works.html">See it in action <span aria-hidden="true">→</span></a>
         </div>
         <div class="hero__benefits" aria-label="Product benefits">
-          <div>
-            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 14V9a7 7 0 0 1 14 0v5M6 14h20v15H6zM16 20v4"/></svg>
-            <span><strong>Lock & contain</strong>odors and germs</span>
-          </div>
-          <div>
-            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M26 5C15 6 8 12 7 24c9 1 17-5 19-19ZM7 25 22 10"/></svg>
-            <span><strong>Sanitary seal</strong>cleaner handling</span>
-          </div>
-          <div>
-            <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="18" r="10"/><path d="M13 2h6M16 2v6M16 18l4-4"/></svg>
-            <span><strong>Always ready</strong>40-bag roll</span>
-          </div>
+          <div><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 14V9a7 7 0 0 1 14 0v5M6 14h20v15H6zM16 20v4"/></svg><span><strong>Lock & contain</strong>odors and germs</span></div>
+          <div><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M26 5C15 6 8 12 7 24c9 1 17-5 19-19ZM7 25 22 10"/></svg><span><strong>Sanitary seal</strong>cleaner handling</span></div>
+          <div><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="18" r="10"/><path d="M13 2h6M16 2v6M16 18l4-4"/></svg><span><strong>Always ready</strong>40-bag roll</span></div>
         </div>
       </div>
 
-      <article class="hero-window hero-window--mechanism reveal reveal--delay-1">
-        <div class="hero-window__media"><img src="assets/images/seal-detail.webp" alt="Hands operating the Bags n’ Seals sealing compartment"></div>
-        <div class="hero-window__caption"><span>01</span><p>Integrated sealing mechanism</p></div>
-      </article>
-
-      <article class="hero-window hero-window--rolls reveal reveal--delay-2">
+      <a class="hero-window hero-window--mechanism reveal reveal--delay-1" href="how-it-works.html" aria-label="Explore the integrated sealing mechanism">
+        <div class="hero-window__media"><img src="assets/images/mechanism-open.webp" alt="Bags n’ Seals proprietary sealing mechanism opened"></div>
+        <div class="hero-window__caption"><span>01</span><p>Inside the sealing mechanism</p><b>→</b></div>
+      </a>
+      <a class="hero-window hero-window--rolls reveal reveal--delay-2" href="product.html" aria-label="Explore continuous bag refills">
         <div class="hero-window__media"><img src="assets/images/bag-rolls.webp" alt="Bags n’ Seals continuous bag roll"></div>
-        <div class="hero-window__caption"><span>02</span><p>Supply built into the workflow</p></div>
-      </article>
-
-      <article class="hero-window hero-window--award reveal reveal--delay-3">
-        <div class="hero-window__media"><img src="assets/images/award-team-optimized.webp" alt="Bags n’ Seals team with the 2026 NHPA Retailers’ Choice Award"></div>
-        <div class="hero-window__caption"><span>03</span><p>Retailers’ Choice Award winner</p></div>
-      </article>
+        <div class="hero-window__caption"><span>02</span><p>Supply built into the workflow</p><b>→</b></div>
+      </a>
+      <a class="hero-window hero-window--award reveal reveal--delay-3" href="innovation.html" aria-label="Explore the 2026 industry award">
+        <div class="hero-window__media"><img src="assets/images/award-ribbon.webp" alt="2026 NHPA Retailers’ Choice Winner ribbon"></div>
+        <div class="hero-window__caption"><span>03</span><p>Retailers’ Choice Award winner</p><b>→</b></div>
+      </a>
 
       <div class="hero__patent" aria-label="United States patented system"><span>U.S.</span><strong>Patented</strong></div>
-      <a class="scroll-cue" href="#credentials" aria-label="Continue to product credentials"><span>Explore</span><i></i></a>
-    </section>
-
-    <section class="credential-bar" id="credentials" aria-label="Bags n’ Seals credentials">
-      <div><span>01</span><strong>U.S. patented</strong><p>Proprietary waste-handling system</p></div>
-      <div><span>02</span><strong>Industry recognized</strong><p>2026 NHPA Retailers’ Choice winner</p></div>
-      <div><span>03</span><strong>Continuous supply</strong><p>40 flexible bags on every roll</p></div>
-      <div><span>04</span><strong>Made for real spaces</strong><p>Residential and commercial ready</p></div>
-    </section>
-
-    <section class="system-section section" id="system">
-      <div class="section-heading reveal">
-        <p class="eyebrow">01 / The engineered system</p>
-        <h2>Everything the next bag needs.<br><span>Already in the bin.</span></h2>
-        <p>Supply, deployment and sealing come together in one considered system—keeping the replacement process close, clean and ready.</p>
-      </div>
-      <div class="system-showcase">
-        <div class="system-showcase__image reveal">
-          <img src="assets/images/seal-detail.webp" alt="Bags n’ Seals Easy-Lock sealing compartment" loading="lazy">
-          <div class="image-index"><span>Precision detail</span><strong>Easy-Lock™</strong></div>
-        </div>
-        <div class="system-showcase__features">
-          <article class="feature reveal"><span>01</span><h3>Integrated supply</h3><p>The continuous roll lives inside the compartment, not in a separate box.</p></article>
-          <article class="feature reveal reveal--delay-1"><span>02</span><h3>Controlled closure</h3><p>The dedicated mechanism helps seal each used liner before removal.</p></article>
-          <article class="feature reveal reveal--delay-2"><span>03</span><h3>Continuous readiness</h3><p>Separate the sealed bag and draw the next liner forward in one flow.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="process-section" id="how-it-works">
-      <div class="process-section__media reveal">
-        <img src="assets/images/hero-system.webp" alt="Bags n’ Seals system with a sealed waste bag" loading="lazy">
-        <div class="process-section__badge"><span>40</span><small>bags per<br>continuous roll</small></div>
-      </div>
-      <div class="process-section__content">
-        <p class="eyebrow">02 / How it works</p>
-        <h2>Three moves.<br><span>One clean flow.</span></h2>
-        <ol class="process-list">
-          <li class="reveal"><span>01</span><div><strong>Pull</strong><p>Draw a fresh liner from the integrated supply.</p></div></li>
-          <li class="reveal reveal--delay-1"><span>02</span><div><strong>Seal</strong><p>Guide the filled bag through the closure system.</p></div></li>
-          <li class="reveal reveal--delay-2"><span>03</span><div><strong>Reset</strong><p>Remove it. The next bag is already waiting.</p></div></li>
-        </ol>
-        <a class="button button--outline" href="https://www.bagsnseals.com/howto">View the full process <span aria-hidden="true">↗</span></a>
-      </div>
-    </section>
-
-    <section class="recognition-section section" id="recognition">
-      <div class="recognition-section__copy">
-        <p class="eyebrow">03 / Industry recognition</p>
-        <p class="award-year">2026</p>
-        <h2>Chosen by the people<br>who know the aisle.</h2>
-        <p>Bags n’ Seals received the NHPA Retailers’ Choice Award—an industry distinction selected by independent home improvement retailers.</p>
-        <div class="recognition-seals">
-          <div><span>NHPA</span><strong>Retailers’ Choice</strong></div>
-          <div><span>U.S.</span><strong>Patented System</strong></div>
-        </div>
-      </div>
-      <div class="recognition-section__image reveal">
-        <img src="assets/images/award-team-optimized.webp" alt="Bags n’ Seals team receiving the 2026 NHPA Retailers’ Choice Award" loading="lazy">
-        <span class="recognition-section__line">Award-winning innovation / Hermetic LLC</span>
-      </div>
-    </section>
-
-    <section class="configurations section" id="configurations">
-      <div class="section-heading section-heading--compact reveal">
-        <p class="eyebrow">04 / Product configurations</p>
-        <h2>Designed to fit.<br><span>Built to perform.</span></h2>
-      </div>
-      <div class="product-grid">
-        <article class="product-card reveal"><img src="assets/images/system-white.webp" alt="White Bags n’ Seals system" loading="lazy"><div><span>01 / Arctic White</span><a href="https://www.bagsnseals.com/product4">Explore <b>↗</b></a></div></article>
-        <article class="product-card reveal reveal--delay-1"><img src="assets/images/system-gray.webp" alt="Gray Bags n’ Seals system" loading="lazy"><div><span>02 / Graphite Gray</span><a href="https://www.bagsnseals.com/product4">Explore <b>↗</b></a></div></article>
-        <article class="product-card reveal reveal--delay-2"><img src="assets/images/system-black.webp" alt="Black Bags n’ Seals system" loading="lazy"><div><span>03 / Obsidian Black</span><a href="https://www.bagsnseals.com/product4">Explore <b>↗</b></a></div></article>
-      </div>
-    </section>
-
-    <section class="closing-section">
-      <img src="assets/images/bagsnseals-logo-silver.png" alt="Bags n’ Seals">
-      <p>Cleaner handling. Smarter containment.</p>
-      <h2>The future of the trash bag<br>is already in the bin.</h2>
-      <a class="button button--silver" href="https://www.bagsnseals.com/product4">Shop Bags n’ Seals <span aria-hidden="true">↗</span></a>
+      <nav class="hero-page-switcher" aria-label="Explore Bags n’ Seals">
+        <a href="product.html">01 Product</a><a href="how-it-works.html">02 Process</a><a href="innovation.html">03 Proof</a><a href="applications.html">04 Uses</a>
+      </nav>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div><img src="assets/images/bagsnseals-logo-silver.png" alt="Bags n’ Seals"><p>A patented product by Hermetic LLC.</p></div>
-    <nav aria-label="Footer navigation"><a href="#system">The system</a><a href="#how-it-works">How it works</a><a href="#recognition">Recognition</a><a href="https://www.bagsnseals.com/contact">Contact</a></nav>
-    <p>© <span data-year></span> Hermetic LLC · Prototype by CPDA Studios</p>
-  </footer>
 </body>
 </html>
