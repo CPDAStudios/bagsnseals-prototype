@@ -666,7 +666,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .site-nav a.is-active,.site-nav a[aria-current="page"] { color:#fff;background:rgba(216,229,238,.1);box-shadow:none; }
   .hero-page-switcher { display:none; }
   .page-shell { padding-top:118px; }
-  .product-hero,.process-hero { grid-template-columns:1fr; }
+  .product-hero,.process-hero { grid-template-columns:1fr; height:auto; }
   .product-stage,.process-visual { min-height:480px; }
   .product-dock { grid-template-columns:1fr 1fr; }.finish-selector { grid-column:1 / -1; }
   .process-dock { grid-template-columns:1fr; padding:24px; }.process-dock > i { width:100%;height:1px; }.process-mini { height:190px; }
